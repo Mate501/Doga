@@ -1,7 +1,9 @@
 package hu.petrik.BejegyzesProject;
 
+import javax.swing.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -16,5 +18,14 @@ public class Main {
             System.out.println("Ugyan az az idopont");
         }
 
+
+        ArrayList<Bejegyzes> egy = new ArrayList<Bejegyzes>();
+        ArrayList<Bejegyzes> ketto = new ArrayList<Bejegyzes>();
+
+        System.out.println("Darabszám?:");
+        int db =
+
+        Scanner myObj = new Scanner(System.in);
     }
+
 }
